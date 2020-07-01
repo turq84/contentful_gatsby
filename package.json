@@ -3,11 +3,14 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kayla Gordon",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@contentful/rich-text-plain-text-renderer": "^14.0.0",
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "contentful-management": "^5.18.2",
     "gatsby": "^2.23.12",
     "gatsby-image": "^2.4.9",
     "gatsby-plugin-feed": "^2.5.7",
@@ -22,6 +25,7 @@
     "gatsby-remark-prismjs": "^3.5.6",
     "gatsby-remark-responsive-iframe": "^2.4.7",
     "gatsby-remark-smartypants": "^2.3.6",
+    "gatsby-source-contentful": "^2.3.18",
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-remark": "^2.8.20",
     "gatsby-transformer-sharp": "^2.5.7",
@@ -30,8 +34,10 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "ts-node": "^8.10.2",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
+    "typescript": "^3.9.5",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
